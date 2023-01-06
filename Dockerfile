@@ -1,6 +1,6 @@
 FROM openjdk:11
 
-COPY target/contact-backend-app.war  /usr/app/
+COPY target/contact-backend-app.jar  /usr/app/
 
 WORKDIR /usr/app/
 
